@@ -165,6 +165,29 @@ python-versions = ">=3.7"
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
 [[package]]
+name = "pydantic-settings"
+version = "2.1.0"
+description = "Settings management using Pydantic"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+pydantic = ">=2.3.0"
+python-dotenv = ">=0.21.0"
+
+[[package]]
+name = "python-dotenv"
+version = "1.0.1"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "typing-extensions"
 version = "4.9.0"
 description = "Backported and Experimental Type Hints for Python 3.8+"
@@ -187,7 +210,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "db7a1bc93155bd683ef30b494482dce39adefcfcc8e7e381bb6901b8f02fe66d"
+content-hash = "3aa8de45c38075a1c8629003f863d4449be699a1e14e0894029da0598c273551"
 
 [metadata.files]
 aiofiles = []
@@ -204,5 +227,7 @@ magic-filter = []
 multidict = []
 pydantic = []
 pydantic-core = []
+pydantic-settings = []
+python-dotenv = []
 typing-extensions = []
 yarl = []
