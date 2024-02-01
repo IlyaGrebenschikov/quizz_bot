@@ -1,0 +1,25 @@
+    Title:            "Данаи",
+    Description:      "Тициан vs Климт vs Тициан",
+    DescriptionImage: "https://i.pinimg.com/564x/eb/f7/4f/ebf74f1b86ded23b050f18f989ff9f9f.jpg",
+    Arts: []Art{
+      {
+        Author: "Тициан",
+        Image:  "https://upload.wikimedia.org/wikipedia/commons/7/78/Tizian_011.jpg",
+      },
+      {
+        Author: "Климт",
+        Image:  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gustav_Klimt_010.jpg/1920px-Gustav_Klimt_010.jpg",
+      },
+      {
+        Author: "Рембрандт",
+        Image:  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Rembrandt_Harmensz._van_Rijn_026.jpg/1920px-Rembrandt_Harmensz._van_Rijn_026.jpg",
+      },
+      {
+        Author: "Тинторетто",
+        Image:  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Tintoret-Dana%C3%A9-Lyon.jpg/1920px-Tintoret-Dana%C3%A9-Lyon.jpg",
+      },
+      {
+        Author: "Госсарт",
+        Image:  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Jan_Gossaert_003.jpg/1920px-Jan_Gossaert_003.jpg",
+      },
+    },
